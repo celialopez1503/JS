@@ -23,7 +23,7 @@ console. log(number);
 
 
 
-///REDUCE
+///REDUCE  volver a hacer
 
 const palabras = ['ala', 'barco', 'cocina']
 
