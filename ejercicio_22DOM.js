@@ -7,6 +7,26 @@
 
 'user strict'
 
-const enlace = document.getElementsByTagName('a href');
-console.log (enlace);
+//numero de enlace
+
+const enlace = document.getElementsByTagName('a');
+console.log (enlace.length);
+
+
+//penultimo enlace
+
+const penultimo = enlaces[enlaces.length -2];
+console.log(penultimo.href);
+
+//
+const tercer = document.getElementById ('thirdparagraph');
+console.log(tercer);
+
+const enlacesTercer = tercer.getElementsByTagName ('a');
+console.log(enlacesTercer.length);
+
+const resultado = document.getElementById ('resultado');
+
+resultado.innerHTML = enlacesTercer.length;
+
 
